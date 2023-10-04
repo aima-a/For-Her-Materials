@@ -1,23 +1,34 @@
-# '''Basic for loop'''
-# fruits = ["apple", "banana", "cherry"]
-# for fruit in fruits:
-#     print("I love", fruit)
+'''this is a docstring'''  # This is a comment
 
-# for num in range(1,6):
-#     print(num)
+'''Basic for loop'''
+fruits = ["apple", "banana", "cherry"]
+# print('I love', fruits)
+# for fruit in fruits:    # This for loop will execute 3 times
+#     print('I love', fruit)
 
 '''For loop with range'''
-# Initialize a variable to store the sum
-# total_sum = 0
+# for num in range(1, 6):  # This for loop will execute 5 times
+#     print(f'My number is {num}')
 
-# Loop from 1 to 5 (inclusive)
-# for num in range(3, 200):
-#     total_sum += num  # Add the current number to the total_sum
-#
-# # Print the result
-# print("The sum of numbers from 3 to 200 is:", total_sum)
+'''Iterating through a range of numbers and adding them all up together'''
+# Initialize a count-er variable to store the sum
+total_sum = 0
 
-'''For loop with range and optional step value'''
-for i in range(1,21,2): # From 1-20 skipping every other number
-    print(i)
+# Loop from 3 to 199 (inclusive)
 
+for n in range(3, 200):
+    if n % 2 == 0: # If the number is even
+        total_sum += n # Add the current number to the total_sum
+
+# Print the result
+print("The sum of even numbers from 3 to 200 is:", total_sum)
+
+# '''For loop with range and optional step value'''
+# for i in range(1,21,2): # From 1-20 skipping every other number
+#     print(i)
+
+# '''Break:'''
+# for num in [1, 2, 3, 4, 5]:
+#     if num == 3:
+#         break  # Exit the loop when num is 3
+#     print(num)

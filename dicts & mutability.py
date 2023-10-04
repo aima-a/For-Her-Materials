@@ -10,5 +10,5 @@ school = {  # Or define a dict as school = dict('name'='Aima'); different notati
 # print(school)
 # print(type(school))
 # print(school['name'])  # Print the value referenced by the key 'name'
-print(len(school))  # Prints the number of key value PAIRS
+# print(len(school))  # Prints the number of key value PAIRS
 

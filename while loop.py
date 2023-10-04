@@ -1,17 +1,10 @@
-'''While loop, while loop with break, while loop with continue'''
+'''While loop, while loop with continue'''
 
-# # While:
+# While loop:
 # count = 0
-# while count < 5:
-#     count += 1
+# while count < 5:    # As long as count is less than 5, this loop will execute (5 times)
+#     count += 1      # Adding 1 to count every time this loop executes
 #     print(count)    # While count is <5
-
-
-# Break:
-# for num in [1, 2, 3, 4, 5]:
-#     if num == 3:
-#         break  # Exit the loop when num is 3
-#     print(num)
 
 # Continue:
 x = 0
